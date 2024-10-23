@@ -19,3 +19,5 @@
 23-10-2024 20:44:44: 40000+90000 = one hundred thirty thousand
 23-10-2024 20:45:33: 199+2101 = two thousand three hundred
 23-10-2024 20:46:01: -9+0 = Invalid Input: Format Error
+23-10-2024 21:04:33: 7+7 = fourteen
+23-10-2024 21:05:00: asdfghjk = Invalid Input: Format Error

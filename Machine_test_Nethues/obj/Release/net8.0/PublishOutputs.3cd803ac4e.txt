@@ -1,0 +1,7 @@
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\Machine_test_Nethues.exe
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\Machine_test_Nethues.dll
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\Machine_test_Nethues.deps.json
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\Machine_test_Nethues.runtimeconfig.json
+C:\Users\Harsh\source\repos\Machine_test_Nethues\Machine_test_Nethues\obj\Release\net8.0\PubTmp\Out\Machine_test_Nethues.pdb

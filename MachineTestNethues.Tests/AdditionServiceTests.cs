@@ -13,6 +13,7 @@ namespace MachineTestNethues.Tests
 
         public AdditionServiceTests()
         {
+
             _logServiceMock = new Mock<ILogService>();
             _additionService = new AdditionService(_logServiceMock.Object);
         }
