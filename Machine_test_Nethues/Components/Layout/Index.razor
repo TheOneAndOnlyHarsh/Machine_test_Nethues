@@ -1,0 +1,65 @@
+﻿@page "/IndexPage"
+@using Machine_test_Nethues.Service
+@rendermode InteractiveServer
+@inject IAdditionService additionService
+@inject ILogService logService 
+
+@inject NavigationManager NavigationManager
+
+<h3>Addition Calculator</h3>
+
+<div>
+    <input type="text" @bind="inputString" placeholder="Enter expression (e.g., 3+5)" />
+    <button @onclick="CalculateSum">Calculate</button>
+</div>
+
+@if (!string.IsNullOrWhiteSpace(result))
+{
+    <p>Result: @result</p>
+    <p>In Words: @resultInWords</p>
+}
+
+<button @onclick="ViewLog">View Log</button>
+
+@code {
+    private string inputString = "";
+    private string result = "";
+    private string resultInWords = "";
+
+    private async Task CalculateSum()
+    {
+        Console.WriteLine($"Input: {inputString}");
+        if (string.IsNullOrWhiteSpace(inputString))
+        {
+            result = "Please enter a valid expression.";
+            await logService.LogOperation(inputString, "Invalid Input: Empty Input");
+            return;
+        }
+        if (!System.Text.RegularExpressions.Regex.IsMatch(inputString, @"^\d+\+\d+$"))
+        {
+            result = "Please enter a valid expression in the form of 'number+number'.";
+            await logService.LogOperation(inputString, "Invalid Input: Format Error");
+            return;
+        }
+
+        try
+        {
+            (result, resultInWords) = await additionService.AddAndConvertToWords(inputString);
+            Console.WriteLine($"Result: {result}, In Words: {resultInWords}");
+        }
+        catch (Exception ex)
+        {
+            result = "Invalid Input";
+            resultInWords = "";
+            await logService.LogOperation(inputString, $"Error: {ex.Message}");
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+
+    private void ViewLog()
+    {
+        NavigationManager.NavigateTo("/loggger"); 
+    }
+
+}

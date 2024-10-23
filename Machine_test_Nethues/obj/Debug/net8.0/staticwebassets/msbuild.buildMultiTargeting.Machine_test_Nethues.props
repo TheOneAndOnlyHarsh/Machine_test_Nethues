@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Machine_test_Nethues.props" />
+</Project>

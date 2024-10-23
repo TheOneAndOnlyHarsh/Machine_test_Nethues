@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Harsh\\source\\repos\\Machine_test_Nethues\\Machine_test_Nethues\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Machine_test_Nethues.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Machine_test_Nethues.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Harsh\\source\\repos\\Machine_test_Nethues\\Machine_test_Nethues\\wwwroot\\Logs\\log.txt",
+      "PackagePath": "staticwebassets\\Logs\\log.txt"
+    },
+    {
+      "Id": "C:\\Users\\Harsh\\source\\repos\\Machine_test_Nethues\\Machine_test_Nethues\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Harsh\\source\\repos\\Machine_test_Nethues\\Machine_test_Nethues\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Harsh\\source\\repos\\Machine_test_Nethues\\Machine_test_Nethues\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Harsh\\source\\repos\\Machine_test_Nethues\\Machine_test_Nethues\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Machine_test_Nethues.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Machine_test_Nethues.props",
+      "PackagePath": "build\\Machine_test_Nethues.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Machine_test_Nethues.props",
+      "PackagePath": "buildMultiTargeting\\Machine_test_Nethues.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Machine_test_Nethues.props",
+      "PackagePath": "buildTransitive\\Machine_test_Nethues.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

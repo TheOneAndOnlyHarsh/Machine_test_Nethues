@@ -1,0 +1,23 @@
+﻿@page "/loggger"
+@using Machine_test_Nethues.Service
+@inject ILogService logService
+@rendermode InteractiveServer
+
+<h3>Log of Operations</h3>
+
+<ul>
+    @foreach (var log in logs)
+    {
+        <li>@log</li>
+    }
+</ul>
+<a href="/logs/log.txt" download="log.txt">Download Log File</a>
+
+@code {
+    private IEnumerable<string> logs = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        logs = await logService.GetLogs();
+    }
+}
